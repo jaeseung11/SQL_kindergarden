@@ -1,3 +1,4 @@
+# 데이터 베이스 만들고 테이블 생성하기
 CREATE DATABASE pokemon;
 
 USE pokemon;
@@ -14,6 +15,8 @@ VALUES (10, 'caterpie', 'bug'),
        
 SELECT * FROM mypokemon;
 
+
+# 새로운 테이블 만들기
 USE pokemon;
 CREATE TABLE mynewpokemon(
 			number INT,
